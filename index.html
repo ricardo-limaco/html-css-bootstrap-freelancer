@@ -20,12 +20,13 @@
 
 
 <body>
-  <header>
+  <header> 
+    <!-- Nav -->
     <nav class="bg-dark text-white py-4">
       <div class="container d-flex align-items-center text-uppercase">
 
         <div class="nav-left">
-          <h3 class="fw-bold">Start Boostrap</h3>
+          <h5 class="fw-bold mb-0">Start Boostrap</h5>
         </div>
 
         <div class="nav-right ms-auto">
@@ -35,7 +36,7 @@
             <li class="list-inline-item"><a href="#" class="fw-bold">Contact</a></li>
           </ul>
           <button class="btn btn-outline-light d-sm-none">
-            <i class="fas fa-bars i-grey"></i>
+            <i class="fas fa-bars i-menu-grey"></i>
           </button>
         </div>
 
@@ -43,27 +44,23 @@
     </nav>
   </header>
 
-
-
   <main>
     <!-- Hero -->
     <section class="bg-success text-white text-uppercase text-center py-4">
 
       <div class="container">
-
-        <img src="img/avatar.svg" alt="avatar" class="w-25 mb-4">
-
+        <!-- Img -->
+        <img src="img/avatar.svg" alt="avatar" class="mb-4" style="width: 15rem;">
+        <!-- Row -->
         <div class="row justify-content-center">
-
           <div class="col-12 col-md-8 col-lg-8">
-            <h1 class="fw-bold mb-3">Start Bootstrap</h1>
+            <h1 class="fw-bold mb-2">Start Bootstrap</h1>
             <!-- Star -->
             <div class="row justify-content-center pt-3 light">
-              <div class="col-6 d-flex align-items-center">
-  
-                <div class="left-star"></div>
-              <i class="fas fa-star i-star"></i>
-              <div class="_right-star"></div>
+              <div class="col-4 col-md-6 d-flex align-items-center">
+                <div class="_left-star bg-light"></div>
+              <i class="fas fa-star i-star text-white"></i>
+              <div class="_right-star bg-light"></div>
               </div>
             </div>
 
@@ -74,46 +71,47 @@
       </div>
     </section>
 
+
     <!-- Portfolio -->
     <section class="mt-5">
       <div class="container">
 
-        <div class="text-center pb-3">
+        <div class="text-center pb-4">
           <h2 class="text-uppercase _fw-600">Portfolio</h2>
           <!-- Star --> 
           <div class="row justify-content-center pt-3">
-            <div class="col-6 d-flex align-items-center">
+            <div class="col-4 col-md-6 d-flex align-items-center">
 
-              <div class="left-star"></div>
+            <div class="_left-star"></div>
             <i class="fas fa-star i-star"></i>
             <div class="_right-star"></div>
             </div>
           </div>
         </div>
 
-
-        <div class="row flex-wrap justify-content-center align-items-center">
-          <div class="col-12 col-md-6 col-lg-4 pb-4">
+        <!-- Img -->
+        <div class="row justify-content-center align-items-center gy-3">
+          <div class="col-12 col-md-6 col-lg-4">
             <img src="img/cabin.png" alt="cabin" class="w-100 rounded-3">
           </div>
 
-          <div class="col-12 col-md-6 col-lg-4 pb-4">
+          <div class="col-12 col-md-6 col-lg-4">
             <img src="img/cake.png" alt="cake" class="w-100 rounded-3">
           </div>
 
-          <div class="col-12 col-md-6 col-lg-4 pb-4">
+          <div class="col-12 col-md-6 col-lg-4">
             <img src="img/circus.png" alt="circus" class="w-100 rounded-3">
           </div>
 
-          <div class="col-12 col-md-6 col-lg-4 pb-4">
+          <div class="col-12 col-md-6 col-lg-4">
             <img src="img/game.png" alt="game" class="w-100 rounded-3">
           </div>
 
-          <div class="col-12 col-md-6 col-lg-4 pb-4">
+          <div class="col-12 col-md-6 col-lg-4">
             <img src="img/safe.png" alt="safe" class="w-100 rounded-3">
           </div>
 
-          <div class="col-12 col-md-6 col-lg-4 pb-4">
+          <div class="col-12 col-md-6 col-lg-4">
             <img src="img/submarine.png" alt="submarine" class="w-100 rounded-3">
           </div>
 
@@ -122,17 +120,130 @@
       </div>
     </section>
 
-    <!-- About -->
-    <section>
 
+    <!-- About -->
+    <section class="bg-success text-white text-center mt-5 py-5">
+      <div class="container">
+        <!-- Title -->
+        <h2 class="text-uppercase _fw-600">About</h2>
+        <!-- Star --> 
+        <div class="row justify-content-center pt-3">
+          <div class="col-4 col-md-6 d-flex align-items-center">
+
+          <div class="_left-star bg-light"></div>
+          <i class="fas fa-star i-star text-white"></i>
+          <div class="_right-star bg-light"></div>
+          </div>
+        </div>
+        <!-- Row -->
+        <div class="row justify-content-center pt-4 gy-3">
+          <div class="col-8 col-lg-5">
+            <p class="lead text-start">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
+          </div>
+
+          <div class="col-8 col-lg-5">
+            <p class="lead text-start">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
+          </div>
+        </div>
+        <!-- Button -->
+        <div class="text-center pt-4">
+          <a href="#" class="btn btn-outline-light btn-lg monospace"><i class="fas fa-download"></i> Donwload</a>
+        </div>
+      </div>
     </section>
 
 
+    <!-- Contact Me -->
+    <section class="text-center mt-5 mb-4">
+      <div class="container">
+        <!-- Title -->
+        <h2 class="text-uppercase _fw-600">Contact Me</h2>
+        <!-- Star --> 
+        <div class="row justify-content-center pt-3">
+          <div class="col-4 col-md-6 d-flex align-items-center">
+        
+            <div class="_left-star"></div>
+            <i class="fas fa-star i-star"></i>
+            <div class="_right-star"></div>
+          </div>
+        </div>
+        <!-- Form -->
+        <div class="row justify-content-center">
+          <div class="col-5 col-lg-8">
+
+            <form action="form">
+              <div class="mb-3">
+                <input type="name" class="border-0 border-bottom border-dark pb-3 w-100 _fw-600 fs-6" placeholder="Name" aria-describedby="nameHelp">
+              </div>
+
+              <div class="mb-3">
+                <input type="email" class="border-0 border-bottom border-dark pb-3 w-100 _fw-600 fs-6" placeholder="Email Address" aria-describedby="emailHelp">
+              </div>
+
+              <div class="mb-3">
+                <input type="text" class="border-0 border-bottom border-dark pb-3 w-100 _fw-600 fs-6" placeholder="Phone Number" aria-describedby="phoneHelp">
+              </div>
+
+              <div class="mb-3">
+                <input type="text" class="border-0 border-bottom border-dark pb-3 w-100 _fw-600 fs-6" placeholder="Message" rows="3">
+              </div>
+
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
   </main>
 
+
   <footer>
+    <!-- Footer -->
+    <section class="_bg-dark-light pt-5">
+      <div class="container">
+        <!-- Row -->
+        <div class="row justify-content-center text-white text-center gy-4 pb-5">
 
+          <div class="col-10 col-md-4">
+            <h4 class="text-uppercase">Location</h4>
+            <p class="lead mb-0">2215 John Daniel Drive Clarck, MO 54243</p>
+          </div>
+          <!-- Social -->
+          <div class="col-10 col-md-4">
+            <h4 class="text-uppercase">Around the web</h4>
+
+            <a href="#" class="btn btn-outline-light mx-1 rounded-circle">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="btn btn-outline-light mx-1 rounded-circle">
+              <i class="fab fa-google-plus-g"></i>
+            </a>
+            <a href="#" class="btn btn-outline-light mx-1 rounded-circle">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="btn btn-outline-light mx-1 rounded-circle">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+
+          </div>
+
+          <div class="col-10 col-md-4">
+            <h4 class="text-uppercase">About freelancer</h4>
+            <p class="lead mb-0">Freelancer is a free to use, open source 
+              Boostrap theme create by <a href="#" class="_link-color">Start Boostrap</a>.</p>
+          </div>
+
+        </div>
+      </div>
+      
+      <!-- Copyright -->
+      <div class="bg-dark text-white text-center pt-3 pb-4">
+        <p class="mb-0 pt-3 pb-3">Copyright Your Website 2019</p>
+      </div>
+
+    </section>
   </footer>
-</body>
 
+</body>
 </html>

@@ -7,10 +7,8 @@ a {
   color: white;
 }
 
-
-/* Tag */
-
-.i-grey {
+/**************** Tag ***************/
+.i-menu-grey {
   color: grey;
   transform: scaleX(1.4);
 }
@@ -21,31 +19,30 @@ a {
   flex-shrink: 0;
   padding: 0 10px;
 }
-/* .i-star::after {
-  content: "";
+
+._left-star, ._right-star {
   height: 4px;
-  width: 80px;
-  border-radius: 2px;
-  background-color: #2c3e50;
-  position: absolute;
-  top: 13px;
-  left: 40px;
-} */
-.left-star {
-  height: 4px;
-  width: 80px;
-  border-radius: 2px;
-  background-color: #2c3e50;
-  flex-grow: 1;
-}
-._right-star{
-  height: 4px;
-  width: 80px;
+  width: 50px;
   border-radius: 2px;
   background-color: #2c3e50;
   flex-grow: 1;
 }
 
+.i-star-white {
+  background-color: white;
+}
+
+/*************** Layout ***************/
+div.nav-right ul li a {
+  font-size: 14px;
+}
+
+footer section div.bg-dark p {
+  font-size: 14px;
+}
+
+
+/*************** Utilitis ***************/
 ._fw-600 {
   font-weight: 600;
 }
@@ -58,23 +55,20 @@ a {
   color: #2c3e50;
 }
 
+._bg-dark-light {
+  background-color: #3a546d;
+}
 
+._link-color {
+  color: rgb(26,188,156);
+}
 
-
-
-/* root */
-
+/*************** Root ***************/
 :root {
   --bs-dark-rgb: 44, 62, 80;
   --bs-success-rgb: 26,188,156;
 }
 
-
-
 /* sm 576 / md 768 / lg 992 */
 
 
-/* footer color
-#3a546d - 58,84,109
-
-*/
